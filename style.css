@@ -27,11 +27,6 @@
     margin: 0;
 }
 
-body,
-html {
-    height: 100%;
-}
-
 /*
     Typographic tweaks!
     3. Add accessible line-height
@@ -121,6 +116,7 @@ button {
     height: 3rem;
     border: 2px solid var(--clr-white-heading);
     border-radius: 1.5625rem;
+    align-self: flex-end;
 }
 
 button:hover {
